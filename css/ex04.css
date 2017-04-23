@@ -1,0 +1,338 @@
+.ui-main {
+	width: 702px;
+	height: 330px;
+}
+.ui-top {
+	width:702px;
+	height: 103px;
+}
+.ui-toptitlestyle {
+	display: flex;
+	flex-direction: row;
+}
+.ui-toptitle {
+	width: 82px;
+	height: 23px;
+	border-radius:2px 2px 0px 0px;
+	background-color: #228cc7;
+	text-align: center;
+	color:#fffff6;
+	font-weight: 900;
+	font-size:80%;
+    line-height: 23px;
+}
+.ui-morning {
+	width: 18px;
+	height: 18px;
+	background-color: #fd6710;
+	margin-left:5px;
+	border-radius:2px;
+	text-align: center;
+	color:#fffff6;
+	font-size:95%;
+	line-height: 20px;
+}
+.ui-line {
+	width: 702px;
+	height: 4px;
+	background-color: #228cc7;
+}
+.ui-totalmsg {
+	width: 700px;
+	height: 46px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#ffffff), to(#f3f4f4));
+	border-left:solid 1px #cbcbcb;
+	border-right:solid 1px #cbcbcb;
+}
+.ui-departbox {
+	width: 700px;
+	height: 23px;
+	border:solid 1px #cbcbcb;
+	background-color: #fffbde;
+	display: flex;
+	flex-direction: row;
+}
+.ui-bottom {
+	width: 702px;
+	height: 250px;
+}
+.ui-trainnumtitle {
+	width: 702px;
+	height: 15px;
+	background-color: #cedce8;
+	border-bottom: solid 1px #ffffff;
+	display: flex;
+	flex-direction: row;
+}
+.ui-place {
+	width: 700px;
+	height: 40px;
+	background-color: #f2f2f2;
+	border-right: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+	border-bottom: solid 1px #bbbbbb;
+	display: flex;
+	flex-direction: row;
+}
+.ui-detialmsg {
+	width: 702px;
+	height: 36px;
+	border-bottom: solid 1px #bbbbbb;
+	display: flex;
+	flex-direction: row;
+}
+.ui-cell {
+    width: 680px;
+    height: 23px;
+    margin:0px 0px 0px 8px;
+    display: flex;
+    flex-direction: row;
+}
+.ui-tmfont {
+	color:#cf0000;
+	font-weight: 900;
+	font-size: 90%;
+	line-height: 25px;
+}
+.sp-tmfont {
+	color: #cf0000;
+	letter-spacing:4px;
+	font-size: 83%;
+	line-height: 25px;
+}
+.arone {
+	color:#cf0000;
+    letter-spacing:4px;
+    line-height: 25px;
+}
+.ui-letter {
+    margin-left: 15px;
+    margin-right: 8px;
+    font-size:83%;
+    color:#444444;
+    line-height: 25px;
+}
+.ui-lettercell-1 {
+    color:#000;
+	font-weight: 900;
+	font-size: 83%;
+    margin-top: -5px;
+    margin-left: 7px;
+    line-height: 30px;
+}
+.ui-lettercell-2 {
+    color:#cf0000;
+	font-weight: 900;
+	font-size: 85%;
+    margin-top: -5px;
+    margin-left: 5px;
+    line-height: 30px;
+}
+.ui-lettercell-3 {
+    color:#cf0000;
+	font-weight: 900;
+	font-size: 85%;
+    margin-top: -5px;
+    margin-left: 5px;
+    line-height: 30px;
+}
+.ui-lettercell-4 {
+    color:#000;
+	font-weight: 900;
+	font-size: 85%;
+    margin-top: -5px;
+    margin-left: 7px;
+    line-height: 30px;
+}
+.ui-lettercell-2:before {
+	content: "所要時間 ";
+	color: #444444;
+    font-weight: 500;
+    font-size: 82%;
+    margin-left: -5px;
+}
+.ui-lettercell-4:before {
+	content: "乘车时间 ";
+	color: #444444;
+    font-weight: 500;
+    font-size: 80%;
+    margin-left: 20px;
+}
+.ui-lettercell-3:before {
+	content: "乗換 ";
+	color: #444444;
+    font-weight: 500;
+    font-size: 80%;
+    margin-left: 20px;
+}
+.ui-lettercell-1:before {
+	content: "距离 ";
+	color: #444444;
+    font-weight: 500;
+    font-size: 80%;
+    margin-left: 20px;
+}
+#img-print {
+	width: 18px;
+	height: 20px;
+	background-image: url("img/05-print.png");
+	background-repeat: no-repeat;
+	margin-left: 595px;
+}
+#img-detail {
+	width: 18px;
+	height: 20px;
+	background-image: url("img/05-detial.png");
+	background-repeat: no-repeat;
+	margin-left: 6px;
+}
+#pdstyle {
+	font-size: 84%;
+	line-height: 20px;
+}
+.trainnumtitle-col-1 {
+    text-align: center;
+    width: 400px;
+    height: 15px;
+    color:#607a90;
+    font-size: 80%;
+}
+.trainnumtitle-col-2 {
+	text-align: center;
+	width: 75px;
+    height: 15px;
+    color:#607a90;
+    font-size: 80%;
+    border-left: solid 1px #ffffff;
+}
+.ui-place-to-mgw {
+	width: 400px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	line-height: 40px;
+	font-weight: 900;
+}
+.stack1{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.clouds {
+	color: #f7fcfe;
+	z-index: 1;
+	position: absolute;
+	margin-left:2.5px;
+	margin-top: 4px;
+}
+.cloudb {
+	color: #199ee1;
+	z-index: 0;
+	position: absolute;
+	margin-top: 4px;
+	margin-bottom: -2px;
+}
+.square {
+	width: 14px;
+	height: 15px;
+    color:#2397da;
+    border:solid 1.4px #ffffff;
+    margin: 12px 5px 0px -5px;
+}
+.ui-place-position {
+	margin-left: 10px;
+    line-height: 40px;
+    font-size: 80%;  
+    display: flex;
+    flex-direction: column; 
+}
+.ui-place-map {
+	margin:10px 0px 0px 60px;
+}
+.ui-place-map-sp {
+	margin:10px 0px 0px 115px;
+}
+.ui-place-position-sp {
+	margin-left: 10px;
+    line-height: 22px;
+	height: 20px;
+	font-size: 80%;  
+}
+.ui-time{
+	margin-left: 20px;
+	margin-right: 30px;
+	font-weight: 500;
+	font-size: 83%;
+	line-height: 45px;
+}
+.square-s {
+	width: 14px;
+	height: 14px;
+	background: #ffffff;
+	color:#1f94d0;
+	font-weight: 900;
+	margin: 12px 5px 0px 2px;
+}
+.ui-detialmsg-time {
+	width: 90px;
+	height: 36px;
+	margin-top:7px;
+	line-height: 12px;
+	text-align: center;
+	margin-left: 5px;
+	font-size: 80%;
+}
+.ui-detialmsg-road {
+	display: flex;
+	flex-direction: column;
+	margin-left: 3px;
+	color:#96c7d8;
+}
+.truck {
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #26a8fe;
+}
+#xin {
+	font-weight: 900;
+	font-size: 95%;
+	color:#0283da;
+	margin-left: -3px;
+	font-family: "微软雅黑";
+}
+.ui-detialmsg-a {
+    width: 220px;
+    height: 36px;
+	margin-right: 70px;
+}
+.msg-col {
+	width: 75px;
+	height: 36px;
+	border-left: solid 1px #c0c0c0;
+	text-align: center;
+	font-size: 84%;
+    line-height: 16px;
+}
+.msg-col-1 {
+	width: 75px;
+	height: 36px;
+	border-left: solid 1px #c0c0c0;
+	text-align: center;
+	font-size: 85%;
+    line-height: 36px;
+}
+.arrow {
+	margin-top: 10px;
+}
+.truck1 {
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #028d5e;
+}
+#JR {
+	font-weight: 900;
+	font-size: 95%;
+	color:#009865;
+	margin-left: -3px;
+	font-family: "微软雅黑";
+	letter-spacing: -2px;
+}
