@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap -->
+    <link href="lib\bootstrap\css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ex07.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" 
+        rel="stylesheet" >
+    <script type="text/javascript" src="lib/jquery.js"></script>
+  </head>
+  <body> 
+      <center><h3>Part one: 手机系统布局</h3></center>
+      <div class="container-fluid" id="toptitle">
+          <div class="row">
+            <div class="col-xs-3" >
+              <select class="form-control-1" >
+                <option>XX</option>
+                <option>YY</option>
+                <option>ZZ</option>
+              </select>
+            </div>
+            <div class="col-xs-8">
+                <span class="sch glyphicon glyphicon-search"></span>
+                <input type="search" placeholder="" id="searchline" class="form-control">
+                <span id="innersearch">XXXXXXX</span>
+            </div>
+            <div class="col-xs-1">
+                <i class="user fa fa-user-o fa-2x"></i>
+                <span id="username">XX</span>
+            </div>
+          </div>
+      </div>
+      <div class="container-fluid" id="piccontainer">
+        <div class="row" id="picrow1">
+          <div class="col-xs-3">
+            <center>
+            <img class="img-circle" src="css/img/07-1.png" alt=""/> 
+            <br>
+            <span id="picname">XX</span>
+            </center>
+          </div>
+          <div class="col-xs-3">
+            <center>
+            <img class="img-circle" src="css/img/07-2.png" alt=""/> 
+            <br>
+            <span id="picname">XX</span>
+            </center>
+          </div>
+          <div class="col-xs-3">
+            <center>
+            <img class="img-circle" src="css/img/07-3.png" alt=""/> 
+            <br>
+            <span id="picname">XX</span>
+            </center>
+          </div>
+          <div class="col-xs-3">
+            <center>
+            <img class="img-circle" src="css/img/07-1.png" alt=""/> 
+            <br>
+            <span id="picname">XX</span>
+            </center>
+          </div>
+        </div>
+         <div class="row">
+          <div class="col-xs-3">
+            <center>
+            <img class="img-circle" src="css/img/07-4.png" alt=""/> 
+            <br>
+            <span id="picname">XX</span>
+            </center>
+          </div>
+          <div class="col-xs-3">
+            <center>
+            <img class="img-circle" src="css/img/07-05.png" alt=""/> 
+            <br>
+            <span id="picname">XX</span>
+            </center>
+          </div>
+          <div class="col-xs-3">
+            <center>
+            <img class="img-circle" src="css/img/07-06.png" alt=""/> 
+            <br>
+            <span id="picname">XX</span>
+            </center>
+          </div>
+          <div class="col-xs-3">
+            <center>
+            <img class="img-circle" src="css/img/07-1.png" alt=""/> 
+            <br>
+            <span id="picname">XX</span>
+            </center>
+          </div>
+        </div>  
+      </div>
+
+      <div class="container-fluid" id="midcontainer">
+          <div class="row">
+            <div class="col-xs-12" id="middetail">
+              <div class="row">
+                <div class="col-xs-4" id="ui-col-4">
+                  <div id="greentitle">XXXX</div>
+                  <h6>XXXXXXXXX</h6>  
+                  <div class="picbox1"><img class="img-responsive" src="css/img/07-m1.png" alt=""/></div>
+                </div>
+                <div class="col-xs-8" id="ui-col-8">
+                   <div>
+                      <div id="redtitle">XXXX</div>
+                      <span class="otspan">XXXXXXXX</span>
+                    </div>
+                    <div class="picbox2"><img class="img-responsive" src="css/img/07-m2.png" alt=""/></div>
+                </div>
+                <div class="col-xs-4" id="ui-col-4-1">
+                   <div id="pinktitle">XXXX</div>
+                   <div class="picbox3"><img class="img-responsive" src="css/img/07-m3.png" alt=""/></div>
+                </div>
+                <div class="col-xs-4">
+                  <div id="orangetitle">XXXX</div>
+                  <span class="otspan">XXXXXXXX</span>
+                  <div><img class="img-responsive" src="css/img/07-8.png" alt=""/></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12" id="middetail">
+              <div class="row">
+                <div class="col-xs-6 border-6">
+                    <div >
+                    <div id="redtitle">XXXX</div>
+                    <span class="otspan">XXXXXXXX</span>
+                    </div>
+                    <div class="picbox4"><img  src="css/img/07-m2.png" alt=""/></div>
+                </div>
+                <div class="col-xs-6 border-6-1">
+                  <div>
+                    <div id="orangetitle">XXXX</div>
+                    <span class="otspan">XXXXXXX</span>
+                    </div>
+                    <div class="picbox4"><img  src="css/img/07-m2.png" alt=""/></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid" >
+          <div class="row ">
+            <div class="col-xs-12 " id="passX">XXXX</div>
+          </div>
+
+          <div class="row line">
+            <div class="col-xs-3">
+              <div class="pic">
+                <div class="img-free">免预约</div>
+              </div>
+            </div>
+            <div class="col-xs-9">
+              <div class="words">
+                <div class="ui-title">XXXX</div>
+                <div class="ui-word">XXXXXXXXXXXXX</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2" id="ui-price">XX</div>
+                <div class="col-xs-2">
+                  <div class="discount"><span class="ui-span">多优惠+</span></div>
+                </div>
+                <div class="ui-sell">已售549516</div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="row line">
+            <div class="col-xs-3">
+              <div class="pic">
+                <div class="img-free">免预约</div>
+              </div>
+            </div>
+            <div class="col-xs-9">
+              <div class="words">
+                <div class="ui-title">XXXX</div>
+                <div class="ui-word">XXXXXXXXXXXXXX</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2" id="ui-price">XX</div>
+                <div class="col-xs-2">
+                  <div class="discount"><span class="ui-span">多优惠+</span></div>
+                </div>
+                <div class="ui-sell">已售99651</div>
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="row line">
+            <div class="col-xs-3">
+              <div class="pic">
+                <div class="img-free">免预约</div>
+              </div>
+            </div>
+            <div class="col-xs-9">
+              <div class="words">
+                <div class="ui-title">XXXX</div>
+                <div class="ui-word">XXXXXXXXXXXXXXXXXXX</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2" id="ui-price">XX</div>
+                <div class="col-xs-2">
+                  <div class="discount-1">门市价:XX元</div>
+                </div>
+                <div class="ui-sell">已售35963</div>
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="row line">
+            <div class="col-xs-3">
+              <div class="pic">
+                <!-- <div class="img-free">免预约</div> -->
+              </div>
+            </div>
+            <div class="col-xs-9">
+              <div class="words">
+                <div class="ui-title">XXXX</div>
+                <div class="ui-word">XXXXXXXXXXXXX</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2" id="ui-price">XX</div>
+                <div class="col-xs-2">
+                   <div class="discount-1">门市价:XX元</div>
+                </div>
+                <div class="ui-sell">已售738</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row ui-botton">
+            <div class="col-xs-2">
+            <div class="ui-botton-word">XXXXXX</div>
+            </div>
+            <div class="col-xs-9"></div>
+            <div class="col-xs-1"><div class="ui-botton-word">></div></div>
+          </div>
+        </div>
+        <!-- 分割线 -->
+        <br><br>
+    <center><h3>Part two: 桌面系统布局</h3></center>    
+    <div class="container-fluid bg-primary">
+      <div class="row">
+        <div class="col-md-10"></div>
+        <div class="col-md-2 ui-top-md-2">
+          <div class="ui-login">登录</div>
+          <div class="ui-departline"></div>
+          <div class="ui-register">注册</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="ui-firstpage">首页</div>
+            </div>
+            <div class="col-md-3">
+              <select class="form-control-2" >
+                <option>讲座</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <div class="ui-titlestyle">悦读</div>
+            </div>
+            <div class="col-md-3">
+              <div class="ui-titlestyle">创意榜</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+         <div class="col-md-3 ui-passage">
+            <select class="form-control-3" >
+                  <option>文章</option>
+            </select>
+          </div>
+          <div class="col-md-5 ui-md-5">
+            <input type="text" class="ui-textbox">
+            <div class="searchbox">
+              <i class="ss fa fa-search"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <!-- 1 -->
+      <br>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <div>
+            <img class="img-responsive" src="css/img/07-p2-1.png"  alt="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ui-main-1-box"><br>
+            <div class="col-md-12" id="text-X">XXXXXXXXXXXXXXXXXXXXX</div>
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-6">
+              <br>
+                <button type="button" class="btn btn-primary"></button>
+              </div>
+              <div class="col-md-3"></div>
+            </div>
+            <br><br>
+            <div class="row btdown-row">
+              <div class="col-md-6"><br>
+                <div class="col-md-12 ui-md-12-after" id="text-num">330</div>
+                <div class="col-md-12 ui-md-12-after" id="text-num">650</div>
+              </div>
+              <div class="col-md-6"><br>
+                <div class="col-md-12 ui-md-12-after" id="text-num">280</div>
+                <div class="col-md-12 ui-md-12-after" id="text-num">1144</div>
+              </div>
+            </div>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+      <!-- 2 -->
+      <br>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <div class="ui-departX">XXXXX</div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-md-9 ui-departX">XXXX</div>
+          <div class="col-md-3 ui-more">更多></div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+      <!-- 3 -->
+      <br>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <!-- left -->
+          <!-- 1 -->
+          <div class="col-md-8 ui-borderline">
+            <br>
+            <div class="ui-departX">XXXXXXX</div>
+            <div class="h6-1">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+            <br>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">772阅读</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">0讨论</div>
+            </div>
+          </div>
+          <div class="col-md-4 ui-borderline">
+          <br>
+            <div class="col-md-12">
+              <img class="img-responsive" src="css/img/07-p2-2.png"  alt="">
+              XXXXXXXX
+            </div>
+            <br>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">3376阅读</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">2讨论</div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="col-md-4 ui-borderline-2">
+            <div class="col-md-12 ui-space">
+              <img class="img-responsive" src="css/img/07-p2-2.png"  alt="">
+              <div class="spain-ppt">PPT</div>
+              <div>XXXXXXXXXX</div>
+            </div>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">34839阅读</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">250下载</div>
+            </div>
+          </div>
+           <div class="col-md-4 ui-borderline-2">
+            <div class="col-md-12 ui-space">
+              <img class="img-responsive" src="css/img/07-p2-2.png"  alt="">
+              <div class="spain-ppt">PPT</div>
+              <div>XXXXXXXXXX</div>
+            </div>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">34839阅读</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">250下载</div>
+            </div>
+          </div>
+           <div class="col-md-4 ui-borderline-2">
+            <div class="col-md-12 ui-space">
+              <img class="img-responsive" src="css/img/07-p2-2.png"  alt="">
+              <div class="spain-ppt">PPT</div>
+              <div>XXXXXXXXXX</div>
+            </div>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">34839阅读</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">250下载</div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="col-md-6 ui-borderline-2">
+            <div class="col-md-12 ui-space">
+              <img class="img-responsive" src="css/img/07-p2-2.png"  alt="">
+              <div>XXXXXXXXXX</div>
+            </div><br>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">3614阅读</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">1讨论</div>
+            </div>
+          </div>
+          <div class="col-md-6 ui-borderline-2">
+            <div class="col-md-12 ui-space">
+              <img class="img-responsive" src="css/img/07-p2-2.png"  alt="">
+              <div>XXXXXXXXXX</div>
+            </div><br>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">3528阅读</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">5讨论</div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="col-md-4 ui-borderline-2">
+            <div class="col-md-12 ui-space">
+              <img class="img-responsive" src="css/img/07-p2-3.png"  alt="">
+              <div>XXXXXXXXXX</div>
+            </div><br>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">894播放</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">0讨论</div>
+            </div>
+          </div>
+          <div class="col-md-4 ui-borderline-2">
+            <div class="col-md-12 ui-space">
+              <img class="img-responsive" src="css/img/07-p2-3.png"  alt="">
+              <div>XXXXXXXXXX</div>
+            </div><br>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">894播放</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">0讨论</div>
+            </div>
+          </div>
+          <div class="col-md-4 ui-borderline-2">
+            <div class="col-md-12 ui-space">
+              <img class="img-responsive" src="css/img/07-p2-3.png"  alt="">
+              <div>XXXXXXXXXX</div>
+            </div><br>
+            <div class="ui-smallwords-container">
+              <div class="smallwords">894播放</div>
+              <div class="ui-departline"></div>
+              <div class="smallwords">0讨论</div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="col-md-12 ui-borderline-3">
+            <div class="col-md-4 ui-space">
+              <img class="img-responsive" src="css/img/07-p2-2.png"  alt="">
+            </div>
+            <div class="col-md-8">
+              <br>
+              <div class="ui-departX">XXXXXXX</div>
+              <div class="h6-1">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+              <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                  <div class="ui-smallwords-container">
+                    <div class="smallwords">3276阅读</div>
+                    <div class="ui-departline"></div>
+                    <div class="smallwords">2讨论</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="col-md-12 ui-borderline-3">
+            <div class="col-md-12">
+              <br>
+              <div class="ui-departX">XXXXXXX</div>
+              <div class="h6-1">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+              <div class="row">
+                <div class="col-md-8"></div>
+                <div class="col-md-4">
+                  <div class="ui-smallwords-container">
+                    <div class="smallwords">4006阅读</div>
+                    <div class="ui-departline"></div>
+                    <div class="smallwords">13讨论</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <!-- right -->
+          <!-- 1 -->
+          <div class="col-md-12 ui-borderline-4">
+            <div class="col-md-12 ui-space-2">
+              <img class="img-responsive" src="css/img/07-p2-1.png"  alt="">
+              <div class="ui-startline">即将开始</div>
+              <div class="ui-boldX">XXXXXXXXXX</div>
+              <div class="ui-time">4月9日 13:00 - 18:00</div>
+              <div class="ui-time">XXXXXXXXXXXXXXXXX</div>
+            </div>
+            <div class="ui-smallwords-container" id="smallwords-spe">
+               <div class="smallwords" >2人已报名</div>
+               <div class="ui-departline"></div>
+               <div class="smallwords">2人关注</div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="col-md-12 ui-borderline-4">
+            <div class="col-md-12 ui-space-2">
+              <img class="img-responsive" src="css/img/07-p2-1.png"  alt="">
+              <div class="ui-startline">即将开始</div>
+              <div class="ui-boldX">XXXXXXXXXX</div>
+              <div class="ui-time">4月21日 9:15 - 4月23日 17:25</div>
+              <div class="ui-time">XXXXXXXXXXXXXXXXX</div>
+            </div>
+            <div class="ui-smallwords-container" id="smallwords-spe">
+               <div class="smallwords" >2人已报名</div>
+               <div class="ui-departline"></div>
+               <div class="smallwords">0人关注</div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="col-md-12 ui-borderline-2">
+            <div class="col-md-12">
+              <div class="col-md-9 ui-space-3">XXXX</div>
+              <div class="col-md-3 ui-more-1">更多></div>
+            </div>
+            <div class="row btdown-row">
+              <div class="col-md-12 ui-space-2">
+                <center><img class="img-responsive" src="css/img/07-p2-4.png"  alt=""></center>
+              </div>
+            </div>
+            <br><br>
+          </div>
+
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+     <!--  Js -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="lib\bootstrap\js/bootstrap.min.js"></script>
+  </body>
+</html>
