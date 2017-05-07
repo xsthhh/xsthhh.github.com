@@ -8,7 +8,7 @@ function init() {
   $("div.ui-frcell-big").click(function(){
   	$("div.ui-frcell-big").hide();
   });
-
+// 2
   $("#ui-mice-1").css("background-color","#c0c0c0");
    $("#ui-mi-2").hide();
   $("#ui-mi-3").hide();
@@ -36,7 +36,7 @@ function init() {
     $("#ui-mi-2").hide();
     $("#ui-mi-1").hide();
   });
-
+// 3
     $(".ui-bobody").on('click', ".delete",function () {
     	$(this).parent().remove();
     	$(".ui-bobox").each(function(){
